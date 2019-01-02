@@ -1,0 +1,35 @@
+{
+    "private": true,
+    "name": "test-docker-http",
+    "description": "",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "Piotr Kowalski",
+        "email": "piecioshka@gmail.com",
+        "url": "https://piecioshka.pl/"
+    },
+    "scripts": {
+        "clear": "echo",
+        "clear:all": "rm -rf node_modules/ && npm run clear",
+        "start": "PORT=$npm_package_config_port node src/index.js",
+        "dev": "PORT=$npm_package_config_port nodemon src/index.js",
+        "lint": "eslint ."
+    },
+    "config": {
+        "port": 3000
+    },
+    "dependencies": {
+        "connect": "^3.6.6",
+        "morgan": "^1.9.1"
+    },
+    "devDependencies": {
+        "eslint": "^5.11.0",
+        "eslint-config-piecioshka": "^2.0.1",
+        "nodemon": "^1.18.9"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:piecioshka/test-docker-http.git"
+    }
+}
