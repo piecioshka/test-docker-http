@@ -14,9 +14,9 @@
 
 ```javascript
 docker build -t piecioshka/demo:2 .
-docker run piecioshka/demo:2
-docker run -p 8000:3000 piecioshka/demo:2
-docker run -p 8000:3000 -v ~/projects/test-docker-http/:/home/node/app/ piecioshka/demo:2
+docker run --rm piecioshka/demo:2
+docker run --rm -p 8000:3000 piecioshka/demo:2
+docker run --rm -p 8000:3000 -v ~/projects/test-docker-http/:/home/node/app/ piecioshka/demo:2
 ```
 
 ## License
