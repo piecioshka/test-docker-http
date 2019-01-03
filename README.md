@@ -13,10 +13,10 @@
 ## Usage
 
 ```javascript
-docker build -t demo/2 .
-docker run demo/2
-docker run -p 8000:3000 demo/2
-docker run -p 8000:3000 -v ~/projects/test-docker-http/:/home/node/app/ demo/2
+docker build -t piecioshka/demo:2 .
+docker run piecioshka/demo:2
+docker run -p 8000:3000 piecioshka/demo:2
+docker run -p 8000:3000 -v ~/projects/test-docker-http/:/home/node/app/ piecioshka/demo:2
 ```
 
 ## License
