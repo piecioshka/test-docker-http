@@ -4,9 +4,10 @@ const morgan = require("morgan");
 
 const app = connect();
 app.use(morgan("dev"));
-app.use(function clientHandler(req, res) {
+app.use((req, res) => {
     res.end(
         JSON.stringify({
+            foo: 'bar',
             version: process.version
         })
     );
