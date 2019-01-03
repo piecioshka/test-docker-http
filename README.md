@@ -6,9 +6,13 @@
 
 ## Features
 
-* :white_check_mark: Create `Dockerfile`
-* :white_check_mark: Create `src/` with definition of HTTP server
-* :white_check_mark: Define port number in `package.json` -> `config`
+* :white_check_mark: Run HTTP server in Docker
+
+## Step by step 👣
+
+* Create `Dockerfile`
+* Create `src/` with definition of HTTP server
+* Define port number in `package.json` -> `config`
 
 ## Usage
 
@@ -22,6 +26,7 @@ docker run --rm -p 8000:3000 -v ~/projects/test-docker-http/:/home/node/app/ pie
 ## Related
 
 * [test-docker](https://github.com/piecioshka/test-docker) - hello world app in Node.js with Docker
+* [test-docker-express-mongo](https://github.com/piecioshka/test-docker-express-mongo) - Two apps: Express.js and MongoDB with Docker
 
 ## License
 
