@@ -19,6 +19,10 @@ docker run --rm -p 8000:3000 piecioshka/demo:2
 docker run --rm -p 8000:3000 -v ~/projects/test-docker-http/:/home/node/app/ piecioshka/demo:2
 ```
 
+## Related
+
+* [test-docker](https://github.com/piecioshka/test-docker) - hello world app in Node.js with Docker
+
 ## License
 
 [The MIT License](http://piecioshka.mit-license.org) @ 2019
