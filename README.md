@@ -1,7 +1,5 @@
 # test-docker-http
 
-[![dependencies](https://david-dm.org/piecioshka/test-docker-http.svg)](https://github.com/piecioshka/test-docker-http)
-
 :ledger: Testing Docker with server HTTP (share port)
 
 ## Features
